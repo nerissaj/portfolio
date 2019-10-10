@@ -5,7 +5,7 @@ html {
 	height: 100vh;
 }
 nav {
-	background-color: black;
+	background-color: #142739;
 	color: white;
 	margin-left: auto;
 	height: 160px;
@@ -45,7 +45,6 @@ li {
 	margin: 10px;
 }
 ul {
-	display: flex;
 	max-width: 100%;
 	padding: 15px;
 }
@@ -73,6 +72,7 @@ Header,
 	line-height: 1.5;
 	color: hsla(0, 0%, 100%, .7);
 	background-color: #142739;
+	width: 100%;
 }
 /* .box {
 	height: 100vh;
@@ -108,7 +108,8 @@ Header,
 #skills-container {
 	font-size: 2.5rem;
 	max-width: 100%;
-	display: flex;
+
+	margin: 20px;
 }
 #skills li {
 	/* display: flex; */
@@ -119,7 +120,7 @@ Header,
 }
 
 footer {
-	width: 100%;
+	max-width: 100%;
 	background: black;
 	color: white;
 	height: 140px;
@@ -140,8 +141,6 @@ footer p {
 	width: 200px;
 	height: 200px;
 	border: 1px solid #999;
-	display: flex;
-	flex-direction: column;
 }
 #contact {
 	display: table;
@@ -154,4 +153,28 @@ footer p {
 #contact a {
 	margin-bottom: 45px;
 	color: black;
+}
+.item-a {
+	grid-area: header;
+}
+.item-b {
+	grid-area: main;
+}
+.item-c {
+	grid-area: sidebar;
+}
+.item-d {
+	grid-area: footer;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 10px 110px 50px 50px;
+	grid-template-rows: auto;
+	grid-template-areas: " header header header header" "main main . sidebar" "footer footer footer footer";
+}
+.wrapper {
+	display: grid;
+	grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+	grid-column-gap: 1px;
 }
