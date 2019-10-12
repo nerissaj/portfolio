@@ -5,55 +5,47 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Nerissa Taylor</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <script src='main.js'></script>
 </head>
-<body class="container">
+<body>
+<header>
 
-    
-<header class="Header item-a">
-  <div class="w3-card-4">
-  
-  <div class="w3-container w3-center">
-
-
+  <div class="container-fluid">
         <nav>
-
                 <ul>
                  <li><a href="#about">About</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#contact">Contact</a></li>
-               
+                </ul>
+                <div>
                 <ol class="social-container">
                 <li class="social"><a href="https://twitter.com/Nerissa75645839"><i class="fab fa-twitter"></i></a></li>
                  <li class="social"><a href="https://www.linkedin.com/in/nerissataylor/"><i class="fab fa-linkedin"></i></a></li>
                  <li class="social"><a href="https://github.com/nerissaj"><i class="fab fa-github-square"></i></a><li>
-                    </ol>     
-                </ul>
+                    </ol> 
+                    <h1>Nerissa Taylor</h1>     
+                </div>         
         </nav>
     
-    <h1>Nerissa Taylor</h1>
-
-
-
-        </div>  
+        </div> 
     </div>
 </header>
-<main class="item-b">
-        <div id="about">
-                <h2>About Me</h2>
-              
-                <p>Full Stack Web Developer located in Washington, DC</p>
-                </div>
-                <div id="skills-container">
-                <div >
-                <h3>Skills</h3>
+         <main>
+            <div class="container-fluid">
+                <div class="row">
+                    <div id="about" class="col-md-4 center card">
+                    <h2 class="card-body">About Me</h2>
+                    <p class="card-text">Full Stack Web Developer located in Washington, DC</p>
+                    </div>
+            <div class="skills col-lg-8 center">
+                <h2>Skills</h2>
                 <ul>
                 <li> HTML </li>
                 <img class="logo" src="html5-logo.jpg"alt="html5 logo">
-                <li> CSS/LESS </li>
+                <li> CSS </li>
                 <img class="logo" src="css-logo.jpg" alt="css logo">
                 <li> JavaScript</li>
                 <img class="logo"src="js.jpg" alt="javascript logo">
@@ -62,58 +54,62 @@
             </ul>
             </div>
             </div>
-
-        <div id="portfolio">
+            </div>
            
+            <div id="portfolio" class="container-fluid">
+                <h2>Portfolio</h2>
+                <div class="row">
+            <div class="col-lg-4 col-sm-3 card" style="width:25rem;">
+  
+             <p class="card-title">Project 1: React</p>
+            <img class="reactp card-img-top"src="react.jpg" alt="nasa project"/>
+            <p class="card-text"> Use Axios get request to pull data from NASA API for Photo of the Day. For more info see github:   
+             <a href="https://github.com/nerissaj/nasa-photo-of-the-day">Nasa-Photo-of-the-Day</a></p>
+            </div>
 
-        <h2>Portfolio</h2>
+            
+                <div class="col-lg-4 col-sm-3 card">
+                 <p>Project 2: HTML/CSS</p>
+                <img class= "card-img-top firstp"src="firstp.png" alt="landing page"/>
+                <p>Use Semantic HTML to frame the data for landing page.</p> <p> For more info see:    <a href="https://github.com/nerissaj/">Github</a></p>
+             </div>
 
-         <div class="box">
-         <div class="box1">
-             <p>Project 1:
-            <img class="reactp"src="react.jpg" alt="nasa project">
-            <p>For more info see github:    <a href="https://github.com/nerissaj/nasa-photo-of-the-day">Nasa-Photo-of-the-Day</a>
-
-
-
-                <div class="box">
-                    <div class="box1">
-                        <p>Project 2:
-                       <img class="firstp"src="firstp.png" alt="landing page">
-                       <div>
-                       <p>For more info see:    <a href="https://github.com/nerissaj/">Github</a>
-                       </div>
-
-                       <div class="box">
-                        <div class="box1">
-                            <p>Project 3:
-                           <img class="firstp"src="todoreducer1.jpg" alt="landing page">
-                           <div>
-                               <p>Use the useReducer Hook from React to add, edit and delete todos from list</p>
-                           <p>For more info see:    <a href="https://reducer-todo.taylornerissa.now.sh/">Todo-React-Reducer</a>
-                        
+                       <div class="col-4 col-sm-3 card">
+                            <p class="card-title">Project 3: React Hooks: useReducer</p>
+                           <img class="card-img-top firstp"src="todoreducer1.jpg" alt="landing page"/>
+                        <p class="card-text">Use the useReducer Hook from React to add, edit and delete todos from list</p>
+                           <p class="card-text">For more info see in <strong>action:</strong>    <a href="https://reducer-todo.taylornerissa.now.sh/">Todo-React-Reducer</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                            
                            </div>
-                        </aside>
+                        </div>
+                        </main>
             
             <br/>
+            <section>
         <div id ="contact">
     <h2>Contact Info</h2>
-    <a href = "mailto:contact@nerissataylor.dev?subject = Feedback&body = Message">
-          For inquiries: "Click here" to email or call
-            </a>
-         
+    <p>Email: </p>
+    <button><a href = "mailto:contact@nerissataylor.dev?subject = Feedback&body = Message">
+            contact@nerissataylor.dev
+            </a> </button>
+        
   
-   <address>Washington DC 20020</address>
 </div>
-
-
-    <footer class="item-d">
+</section>
+</body>
+    <footer>
+    <div>
     <ul>
         <li class="social"><a href="https://twitter.com/Nerissa75645839"><i class="fab fa-twitter"></i></a></li>
         <li class="social"><a href="https://www.linkedin.com/in/nerissataylor/"><i class="fab fa-linkedin"></i></a></li>
         <li class="social"><a href="https://github.com/nerissaj"><i class="fab fa-github-square"></i></a><li>
         </ul>
-            <p>Nerissa Taylor &copy;2019</p>
+            <p>Nerissa Taylor &copy;2019 Washington, DC 20020</p>
+    </div>
 </footer>
-</body>
+
 </html>
