@@ -1,26 +1,13 @@
 html {
 	font-size: 62.5%;
 	overflow-x: hidden;
-	max-width: 100%;
-	height: 100vh;
 }
 
 nav {
 	background-color: #c9c19f;
-	color: #66a182;
-	margin-left: auto;
+	margin: 20px;
+}
 
-	max-width: 100%;
-	text-align: center;
-	margin-right: auto;
-}
-.pic {
-	margin-bottom: 20px;
-	background-color: black;
-	width: 300px;
-	margin-left: 100px;
-	margin-top: 10px;
-}
 main {
 	background-color: #caffb9;
 	margin: 20px;
@@ -28,107 +15,88 @@ main {
 
 a {
 	text-decoration: none;
-	margin-top: 40px;
-	font-size: 3.5rem;
-	color: #66a182;
-	margin-left: 40px;
 
-	max-width: 100%;
+	font-size: 1.8rem;
+	color: #333232;
 }
 address {
 	font: size 1.8rem;
 }
 li {
 	list-style: none;
-	font-size: 1.3rem;
-	margin: 10px;
+	font-size: 1.2rem;
+	margin-left: 66px;
 	color: #66a182;
+	margin-top: 10px;
 }
 ul {
-	max-width: 100%;
-	padding: 15px;
-	display: flex;
-	justify-content: flex-end;
-}
-.social-container {
-	display: flex;
-	margin: 36px 80px;
-	justify-content: flex-end;
+	font-size: 1.2rem;
+	margin-bottom: 10px;
 }
 
 h1 {
-	font-size: 6.0rem;
-	color: #333232;
+	font-size: 3.0rem;
+	color: #66a182;
 }
 h2 {
-	font-size: 4.5rem;
+	margin-top: 12px;
+	font-size: 2.5rem;
 	color: #333232;
 	text-align: center;
 }
 #about,
 p {
-	font-size: 4.0rem;
+	font-size: 1.4rem;
 }
 
 #skills {
 	font-size: 2.5rem;
 	max-width: 100%;
 
-	margin: 20px;
+	margin-left: 400px;
 }
-#skills li {
-	/* display: flex; */
-
-	list-style: circle;
-	font-size: 4.1rem;
-	max-width: 100%;
+.logo {
+	width: 120px;
+	height: 120px;
+	border: 1px solid #999;
 }
 
 footer {
 	max-width: 100%;
-	background: #f7b2ad;
-	color: white;
-	height: 140px;
-}
-.social {
-	font-size: 30px;
-	margin-left: 20px;
-}
-.social a {
-	color: #66a182;
-	margin-top: 10px;
+	background: #c9c19f;
+	color: #333232;
 }
 footer p {
 	text-align: center;
-	font-size: 16px;
+	font-size: 1.6rem;
+	margin-bottom: 10px;
 }
-.logo {
-	width: 200px;
-	height: 200px;
-	border: 1px solid #999;
-}
+
 #contact {
-	display: table;
-	border: 1px solid #edf7b5;
-	height: 342px;
 	margin-right: auto;
 	margin-left: auto;
-	width: 600px;
-	background-color: #edf7b5;
 }
 #contact a {
-	margin-bottom: 45px;
+	margin-bottom: 75px;
 	color: #333232;
 }
+#contact p {
+	font-size: 1.4rem;
+}
 .reactp {
-	width: 600px;
+	width: 300px;
 
-	margin-top: 60px;
+	margin-top: 20px;
 	opacity: 0.9;
 }
 .firstp {
-	width: 600px;
+	width: 300px;
+	margin-top: 20px;
+}
+.firstp1 {
+	width: 300px;
 	margin-top: 60px;
+	margin-bottom: 42px;
 }
 section {
 	background-color: #c9c19f;
@@ -136,15 +104,17 @@ section {
 }
 section button {
 	background-color: #7d7c7a;
-	margin: 20px;
 }
 .card {
 	background-color: #66a182;
 	padding: 5px;
 	text-align: center;
-	margin: 20px;
+	margin: 10px;
 }
 img {
 	margin-left: auto;
 	margin-right: auto;
+}
+button {
+	font-size: 1.8rem;
 }
