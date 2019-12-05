@@ -5,12 +5,12 @@ html {
 
 nav {
 	background-color: #c9c19f;
-	margin: 20px;
+	margin: 5px;
+	max-width: 100%;
 }
 
 main {
 	background-color: #caffb9;
-	margin: 20px;
 }
 
 a {
@@ -25,18 +25,24 @@ address {
 li {
 	list-style: none;
 	font-size: 1.2rem;
-	margin-left: 66px;
+
 	color: #66a182;
 	margin-top: 10px;
 }
-ul {
+.navigate {
 	font-size: 1.2rem;
-	margin-bottom: 10px;
+
+	margin-top: 10px;
+}
+.item {
+	display: inline-block;
+	text-align: center;
 }
 
 h1 {
 	font-size: 3.0rem;
 	color: #66a182;
+	margin: 0 60px;
 }
 h2 {
 	margin-top: 12px;
@@ -44,21 +50,29 @@ h2 {
 	color: #333232;
 	text-align: center;
 }
+p {
+	margin-top: 26px;
+	margin-left: auto;
+	margin-right: auto;
+}
 #about,
 p {
 	font-size: 1.4rem;
+
+	margin-top: 10px;
+	text-align: center;
 }
 
-#skills {
+.skills {
 	font-size: 2.5rem;
-	max-width: 100%;
-
-	margin-left: 400px;
+	width: 100%;
 }
 .logo {
-	width: 120px;
-	height: 120px;
+	width: 45%;
+
 	border: 1px solid #999;
+	margin-left: 193px;
+	margin-bottom: 5px;
 }
 
 footer {
@@ -66,6 +80,7 @@ footer {
 	background: #c9c19f;
 	color: #333232;
 }
+
 footer p {
 	text-align: center;
 	font-size: 1.6rem;
@@ -77,26 +92,29 @@ footer p {
 	margin-left: auto;
 }
 #contact a {
-	margin-bottom: 75px;
+	margin-bottom: 55px;
 	color: #333232;
 }
 #contact p {
 	font-size: 1.4rem;
 }
+/*pic in portfolio*/
 .reactp {
-	width: 300px;
-
+	max-width: 275px;
+	text-align: center;
 	margin-top: 20px;
 	opacity: 0.9;
 }
 .firstp {
-	width: 300px;
-	margin-top: 20px;
+	max-width: 275px;
+	margin-top: -4px;
+	text-align: center;
 }
 .firstp1 {
-	width: 300px;
-	margin-top: 60px;
+	max-width: 275px;
+	margin-top: 11px;
 	margin-bottom: 42px;
+	text-align: center;
 }
 section {
 	background-color: #c9c19f;
@@ -108,13 +126,41 @@ section button {
 .card {
 	background-color: #66a182;
 	padding: 5px;
-	text-align: center;
-	margin: 10px;
+	margin: 5px;
 }
 img {
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 10px;
 }
 button {
 	font-size: 1.8rem;
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+	footer {
+		max-width: 500px;
+	}
+	.skills {
+		max-width: 380px;
+	}
+	.nav-nav {
+		max-width: 380px;
+		margin-left: 20px;
+	}
+	#about {
+		max-width: 80%;
+		height: 300px;
+		margin: 5px;
+	}
+	img {
+		margin-right: 35px;
+	}
+}
+
+.bottom {
+	display: flex;
+	margin-left: 514px;
+}
+.nav-link {
+	margin-left: 33px;
 }
